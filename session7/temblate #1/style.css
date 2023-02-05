@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #7777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+
+}
+.container{
+    width:1200px;
+    margin: auto;
+}
+.btn{
+    line-height: 40px;
+    padding: 0 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #ffffff;
+    font-weight: 500 ;
+    text-transform: uppercase;
+   
+}
+.heading{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.heading h3{
+   color: rgb(0, 0, 0);
+   font-size: 30px;
+   margin-bottom: 23px;
+}
+.heading p{
+    width: 40%;
+    margin: auto;
+     color: #6e6e6c;
+     font-size: 16px; 
+    font-weight: 300;
+    line-height: 1.5em;
+}
+/*start nav*/
+nav{
+    overflow:auto;
+    padding: 8px 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+}
+nav .logo{
+    float: left;
+    width: 70%;
+}
+nav .logo img {
+    width: 13%;
+    padding: 4px 0;
+}
+nav .list{
+    float: left;
+    width: 30%;
+
+} 
+nav .list ul {
+    list-style: none;
+}
+nav .list ul li a {
+    text-decoration: none;
+    float: left; 
+    padding: 8px 13px;
+    color: #fff;    
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;                          
+    
+}
+
+nav .list ul li a:hover{
+    color: #f3487f;
+}
+/*end nav*/
+/*start header*/
+header{
+    background: url(img/banner-bg.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+   position: relative;
+}
+header .overlay-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(132, 96, 246, 0.8);
+
+}
+header .header-info{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left:25%;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+header .header-info h1{
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 80px;
+    margin-bottom: 20px;
+
+
+}
+header .header-info p{
+
+        margin-bottom: 60px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 60px;
+        color: #ffffff;
+    }
+
+
+
+/*end header*/
+
+/*start History*/
+.History{
+    background-color: #f2f5f7;
+    padding: 70px 0;
+    overflow: auto;
+}
+.History .History-dec{
+    width: 100%;
+    height:450px ;
+    background-color: white;
+}
+ .History .History-img{
+    float: left;
+    width: 33.3333%;
+    
+ }
+ .History .History-img img{
+
+    margin: -25px 25px;
+ }
+
+
+ .History  .History-info{
+    float: left;
+    width: 50%;  
+    margin-left: 90px;
+    margin-top: 36px;
+    padding: 24px;
+  
+    
+ }
+ .History .list-btn .btn:first-child{
+    padding: 0 35px;
+    background-color:#6a4dc5 ;
+    color:#fff ;
+    line-height: 35px;
+    border: 1px solid transparent;
+    margin-bottom: 50px;
+}
+.History .list-btn .btn{
+    padding:0 35px;
+    background-color: transparent;
+    border: 1px solid #7777;
+    color:#7777;
+    
+   text-transform: capitalize;
+   line-height: 35px;
+   
+
+}
+.History .list-btn .btn:hover{
+    background-color: #6a4dc5;
+    color: rgb(255, 255, 255);
+}
+
+.History  .History-info h3{
+    color:rgb(0, 0, 0) ;
+    font-size: 27px;
+    margin-bottom:22px ;
+}
+
+
+.History  .History-info p{
+    color:#777777;
+    font-size: 14px;
+    }
+
+/*end History*/
+
+/*start skill*/
+.skils{
+    background: #f3487f;
+    height: 498px;
+    overflow: auto;
+    
+}
+.skils .skils-info{
+    float: left;
+    width: 25%;
+   
+    
+    
+
+}
+.skils .skils-info .skils-icon{
+    background-color: #fff;
+    text-align: center;
+    padding: 89px 0;
+}
+.skils .skils-info .skils-icon:hover{
+    background-color: #f3487f;
+    color: #fff;
+}
+.skils .skils-info .skils-icon:hover p{
+    color: #fff;
+}
+.skils .skils-info .skils-icon:hover i{
+    color: #fff;
+}
+
+.skils .skils-info .skils-icon p{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.skils .skils-info .skils-icon .icons{
+    color: #f3487f;
+    font-size: 30px;
+   
+    
+}
+.skils .skils-info .skils-dec{
+    background-color: #6f7598;
+    padding: 93px 26px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/*end skill*/
+/*start Experiences*/
+.Experiences{
+    padding: 70px 0;
+    overflow:auto;
+}
+
+.Experiences .Vector .Vector-info{
+    float: left;
+    width: 25%;
+   
+}
+.Experiences .Vector .Vector-info .Vector-img img{
+    width: 90%;
+   
+}
+
+.Experiences .Vector .Vector-dec{
+    float: left;
+    width:50% ;
+  
+
+}
+.Experiences .Vector .Vector-dec .Vector-detal{
+  padding: 40px 20px;
+}
+.Experiences .Vector .Vector-dec h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.Experiences .Vector .Vector-dec h5{
+    color: #5d5d5d;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.Experiences .Vector .Vector-dec p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: 0;
+    
+
+}
+
+.Experiences .Vector .Vector-dec .btn{
+ color: #6a4dc5;
+ background-color: transparent;
+ border: 1px solid #eee;
+ font-size: 18px;
+ padding: 0 30px;
+ font-weight: normal;
+ letter-spacing: 0;
+}
+.Experiences .Vector .Vector-dec .btn:hover{
+    background-color: #6a4dc5;
+    color: #fff;
+}
+/*end Experiences*/
+
+
+
+/*start project*/
+
+.project{
+    background-color: #5dd1e3;
+    padding: 100px 0;
+}
+.project .heading h3 {
+    color: #fff;
+}
+.project .heading p{
+    color: #fff;
+}
+.project .some-project{
+    overflow: auto;
+    background-color: #fff;
+    height: 268px;
+    overflow-y: hidden;
+}
+.project .some-project .some-info{
+    float: left;
+    width: 66.6666%;
+}
+.project .some-project .some-info img{
+    width: 93%;
+    height: 268px;
+}
+
+.project .some-project .some-dec{
+    float: left;
+    width: 33.3333%;
+
+}
+.project .some-project .some-dec .some_derals{
+    padding: 50px 48px 50px 0 ;
+}
+
+.project .some-project .some-dec .some_derals h3{
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+
+.project .some-project .some-dec .some_derals p{
+    font-size: 17px;
+    letter-spacing: 0;
+    color: #777777;
+
+}
+
+
+
+
+/*end project*/
+/*start keep*/
+.keep{
+    padding: 100px 0;
+}
+.keep form{
+    width: 90%;
+    overflow: visible;
+    margin: auto;
+}
+
+.keep form input{
+    float: left;
+    width: 42.1111%;
+    height: 56px;
+    padding: 0 25px;
+    margin-right: 27px;
+    margin-bottom: 31px;
+    border: 1px solid #d4d5e0;
+
+
+}
+.keep form input::placeholder{
+    color: #d4d5e0;
+font-size: 20px;
+}
+.keep form:nth-of-type(2){
+    margin-right: 0;
+}
+.keep form textarea{
+    width: 92.1111%;
+    height: 183px;
+    padding: 20px 25px;
+    border: 1px solid #d4d5e0;
+
+
+}
+.keep form textarea::placeholder{
+    color: #d4d5e0;
+font-size: 20px;
+}
+.keep form .btn{
+    float: right;
+    padding: 3px 37px;
+    color: #6a4dc5;
+    border: 1px solid #d4d5e0;
+    margin-top: 15px;
+    margin-right: 23px;
+    font-weight: normal;
+    letter-spacing: 0;
+
+}
+.keep form .btn:hover{
+    background-color: #6a4dc5;
+    color: #fff;
+}
+
+/*end keep*/
+
+/*start Together*/
+
+.Together{
+    background-color: #f9c400;
+    padding: 170px 0;
+}
+.Together .Together-inp{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.Together .Together-inp h3{
+    color: #fff;
+    font-size:30px;
+    width:100% ;
+    margin: auto;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Together .Together-inp form{
+    position: relative;
+}
+.Together .Together-inp form input{
+        padding: 18px 20px;
+        width: 100%;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+}
+
+
+.Together .Together-inp .btn{
+    position:absolute ;
+    padding:1px 38px;
+    top: 5px;
+    right: -39px;
+    background-color: transparent;
+    border: 1px solid #d4d5e0;
+    color: #6a4dc5;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.Together .Together-inp .btn:hover{
+    background-color: #6a4dc5;
+    color: #fff;
+}
+/*end Together*/
+footer{
+    background-color: #4e5375;
+    padding: 100px 0;
+    overflow: auto;
+}
+footer .footer-list{
+    float: left;
+    width: 25%;
+}
+footer .footer-list .list h5{
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer .footer-list .list ul {
+    list-style: none;
+}
+footer .footer-list .list ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 4px 0;
+    display: inline-block;
+}
+footer .footer-list .list ul li a:hover{
+    color: #6a4dc5;
+}
+.footer-img{
+    margin: 22px;
+    width: ;
+}
+.end p{
+    margin: 25px;
+    float: left;
+    width: 80%;
+    color: #eee;
+}
+.end p i{
+    color: rgb(255, 5, 5);
+}
+.end-icons a{
+    width: 30px;
+    text-decoration: none;
+    color: #fff;
+    margin: 4px 0;
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+   
+}
+.end-icons a:hover{
+    background-color: #f9c400;
+    color: #4e5375;
+}
