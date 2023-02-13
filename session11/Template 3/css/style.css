@@ -105,8 +105,8 @@ body{
 
 @media(max-width:991px){
   .navbar{
-    padding: 20px 25px;
-  }
+    padding: 0;
+  }.
   .navbar-toggler:focus , .navbar-toggler:hover{
     border: 0;
     outline: 0;
@@ -259,7 +259,6 @@ margin: 0;  }
 }
 }
 
-
 /* ======================end carousel============================  */
 
 
@@ -306,7 +305,7 @@ margin: 0;  }
 /* ======================Start Services ============================  */
 .Services{
   padding: 0 15px;
-  width: 1700px;
+  width: 90%;
   margin: auto;
  
 }
