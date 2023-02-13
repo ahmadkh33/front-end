@@ -724,7 +724,14 @@ border-radius: 50%;
 
 @media(max-width:1024px){
   .help .help-info {
+    margin-top: 20px;
     padding: 34px 40px 70px 48px;
+}
+.help .help-img img{
+  height: 550px;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 }
 @media(max-width:991px){
